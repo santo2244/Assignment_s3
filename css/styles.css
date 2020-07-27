@@ -1,0 +1,15 @@
+.ocultar{
+    visibility: hidden;
+}
+
+.contenido{
+    height: 1000px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+@media(max-width: 575px){
+    .ocultar{
+        visibility: visible;
+    }
+}
